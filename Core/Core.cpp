@@ -3,9 +3,10 @@
 
 #include "stdafx.h"
 #include "Core.h"
+#include <string>
 
 // This is an example of an exported function.
-CORE_API wchar_t* FizzBuzz(int value)
+CORE_API std::string FizzBuzz(int value)
 {
-    return L"42";
+    return "42";
 }

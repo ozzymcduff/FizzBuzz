@@ -9,7 +9,8 @@
 #else
 #define CORE_API __declspec(dllimport)
 #endif
+#include <string>
 
 //extern CORE_API int nCore;
 
-CORE_API wchar_t* FizzBuzz(int);
+CORE_API std::string FizzBuzz(int);
